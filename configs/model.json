@@ -1,0 +1,45 @@
+{
+  "default_model": "qwen2.5-0.5b-instruct",
+  "models": {
+    "qwen2.5-0.5b-instruct": {
+      "enabled": true,
+      "adapter": "qwen2",
+      "repo_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "local_dir": "models/Qwen2.5-0.5B-Instruct",
+      "model_type": "qwen2",
+      "num_hidden_layers": 24,
+      "hidden_size": 896,
+      "parameter_count": 494032768,
+      "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "chat_template_kwargs": {},
+      "baseline_run": null
+    },
+    "qwen3-30b-a3b": {
+      "enabled": false,
+      "adapter": "qwen3_moe",
+      "repo_id": "Qwen/Qwen3-30B-A3B",
+      "revision": null,
+      "local_dir": "models/Qwen3-30B-A3B",
+      "model_type": "qwen3_moe",
+      "num_hidden_layers": 48,
+      "hidden_size": 2048,
+      "parameter_count": 30500000000,
+      "chat_template_kwargs": {"enable_thinking": false},
+      "baseline_run": null
+    },
+    "qwen3-30b-a3b-instruct-2507": {
+      "enabled": false,
+      "adapter": "qwen3_moe",
+      "repo_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "revision": null,
+      "local_dir": "models/Qwen3-30B-A3B-Instruct-2507",
+      "model_type": "qwen3_moe",
+      "num_hidden_layers": 48,
+      "hidden_size": 2048,
+      "parameter_count": 30500000000,
+      "chat_template_kwargs": {},
+      "baseline_run": null
+    }
+  }
+}

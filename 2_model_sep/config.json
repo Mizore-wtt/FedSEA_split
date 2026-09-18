@@ -1,0 +1,9 @@
+{
+  "model": null,
+  "runtime_config": "configs/inference.json",
+  "runtime_overrides": {},
+  "stage1_run": "auto",
+  "split": {"preset": "p2_q2"},
+  "comparison": {"atol": 0.00001, "rtol": 0.00001},
+  "length_checks": [1, 128, 512, 1024]
+}

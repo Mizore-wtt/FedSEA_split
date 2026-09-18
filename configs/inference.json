@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "dtype": "float16",
+  "attention_implementation": "eager",
+  "max_input_tokens": 1024,
+  "max_new_tokens": 128,
+  "seed": 42,
+  "system_prompt": "You are a helpful assistant. Answer in the user's language."
+}

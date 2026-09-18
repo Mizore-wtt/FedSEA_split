@@ -1,0 +1,16 @@
+[
+  {
+    "id": "instruction",
+    "prompt": "\u8bf7\u53ea\u8f93\u51fa FEDSEA_OK\uff0c\u4e0d\u8981\u8f93\u51fa\u5176\u4ed6\u5185\u5bb9\u3002",
+    "expected_substring": "FEDSEA_OK"
+  },
+  {
+    "id": "arithmetic",
+    "prompt": "What is 17 + 25? Give only the number.",
+    "expected_substring": "42"
+  },
+  {
+    "id": "chinese",
+    "prompt": "\u8bf7\u7528\u4e24\u53e5\u7b80\u77ed\u7684\u4e2d\u6587\u89e3\u91ca\u4ec0\u4e48\u662f\u5927\u8bed\u8a00\u6a21\u578b\u3002"
+  }
+]

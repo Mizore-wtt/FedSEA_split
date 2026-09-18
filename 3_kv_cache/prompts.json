@@ -1,0 +1,5 @@
+[
+  {"id": "remember", "prompt": "Remember that my code word is APPLE. Reply with OK only."},
+  {"id": "recall", "prompt": "What is my code word? Reply with the word only.", "expect_reuse": true},
+  {"id": "after_reset", "prompt": "What is 17 + 25? Give only the number.", "reset_before": true}
+]

@@ -1,0 +1,21 @@
+{
+  "model": null,
+  "runtime_config": "configs/inference.json",
+  "runtime_overrides": {},
+  "split": {"preset": "p2_q2"},
+  "https": {
+    "host": "127.0.0.1",
+    "port": 8443,
+    "url": "https://localhost:8443",
+    "credentials_dir": "certs/localhost",
+    "timeout_seconds": 60,
+    "max_body_bytes": 16777216,
+    "max_context_tokens": 1152,
+    "max_sessions": 4,
+    "session_ttl_seconds": 600
+  },
+  "comparison": {"atol": 0.00001, "rtol": 0.00001},
+  "length_checks": [1, 128, 512, 1024],
+  "decode_check_tokens": 3,
+  "prompt_files": ["1_model_base/prompts.json", "2_model_sep/prompts.json"]
+}

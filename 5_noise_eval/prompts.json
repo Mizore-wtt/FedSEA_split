@@ -1,0 +1,35 @@
+[
+  {
+    "id": "instruction",
+    "prompt": "Reply with exactly FEDSEA_OK and nothing else.",
+    "answers": ["FEDSEA_OK"]
+  },
+  {
+    "id": "arithmetic",
+    "prompt": "What is 17 + 25? Give only the number.",
+    "answers": ["42"]
+  },
+  {
+    "id": "classification",
+    "prompt": "Classify the sentiment of 'I absolutely love this book.' Reply with only positive or negative.",
+    "answers": ["positive"]
+  },
+  {
+    "id": "extraction",
+    "prompt": "Alice has a red bag. Bob has a blue bag. What color is Bob's bag? Reply with only the color.",
+    "answers": ["blue"]
+  },
+  {
+    "id": "conversation",
+    "messages": [
+      {"role": "user", "content": "Remember this code: APPLE. Reply only OK."},
+      {"role": "assistant", "content": "OK"},
+      {"role": "user", "content": "What code did I give you? Reply only with the code."}
+    ],
+    "answers": ["APPLE"]
+  },
+  {
+    "id": "explanation",
+    "prompt": "Explain federated learning in two short sentences."
+  }
+]

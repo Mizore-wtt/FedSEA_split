@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+models/*/
+*/runs/
+*.log
+.env
+certs/*
+!certs/README.md

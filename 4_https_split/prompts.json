@@ -1,0 +1,5 @@
+[
+  {"id": "remember", "prompt": "请记住数字 17，只回复：记住了。"},
+  {"id": "recall", "prompt": "我刚才让你记住的数字是什么？只回复数字。", "expect_reuse": true},
+  {"id": "after_reset", "prompt": "3 加 5 等于多少？只回复数字。", "reset_before": true}
+]

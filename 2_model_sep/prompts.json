@@ -1,0 +1,14 @@
+[
+  {
+    "id": "longer_generation",
+    "prompt": "Count from 1 to 30, separated by commas. Do not add an explanation."
+  },
+  {
+    "id": "conversation",
+    "messages": [
+      {"role": "user", "content": "\u8bf7\u8bb0\u4f4f\uff1a\u6211\u7684\u4ee3\u53f7\u662f\u84dd\u5929\u3002"},
+      {"role": "assistant", "content": "\u597d\u7684\uff0c\u4f60\u7684\u4ee3\u53f7\u662f\u84dd\u5929\u3002"},
+      {"role": "user", "content": "\u6211\u7684\u4ee3\u53f7\u662f\u4ec0\u4e48\uff1f\u8bf7\u53ea\u56de\u7b54\u4ee3\u53f7\u3002"}
+    ]
+  }
+]

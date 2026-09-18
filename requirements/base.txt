@@ -1,0 +1,5 @@
+transformers==4.56.1
+huggingface-hub==0.34.3
+safetensors==0.5.3
+tokenizers==0.22.0
+numpy==2.2.6
